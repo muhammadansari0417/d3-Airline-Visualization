@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Airline Incidents</title>
+</head>
+
+<body>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src='js/main.js'></script>
+<h2>This vis is about airline incidents, please use the dropdown to make a selection</h2>
+	<div>
+		<select id="dates">
+			<option value="none" selected>Please Select an Option</option>
+			<option value="incidents_85_99" >Airline Incidents 1985-1999</option>
+			<option value="fatal_accidents_85_99" >Airline Fatal Accidents 1985-1999</option>
+			<option value="fatalities_85_99" >Airline Fatalities 1985-1999</option>
+			<option value="incidents_00_14">Airline Incidents 2000-2014</option>
+			<option value="fatal_accidents_00_14">Airline Fatal Accidents 2000-2014</option>
+			<option value="fatalities_00_14">Airline Fatalities 2000-2014</option>
+			<option value="fatal_per_km">Airline Fatalities per KM</option>
+		</select>
+
+		<button id="update" onclick="myFunction()">Update</button>
+  </div>
+
+	<h4>Asterisk indicates that regional subsidiaries are included</h4>
+
+
+
+
+
+	</body>
+</html>

@@ -1,0 +1,41 @@
+h2 {
+  padding-bottom: 10px;
+}
+
+body {
+  background-color: pink;
+}
+
+.bar{
+  fill: #0080FF;
+  stroke: black;
+  stroke-width: 5
+}
+
+.bar:hover{
+  fill: red;
+}
+
+.axis {
+  font: 12px arial
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 #ffffff;
+  border: 1px solid #6F257F;
+  padding: 14px;
+  text-align: center;
+}
